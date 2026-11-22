@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Strict Zero-Blue Theme Overrides */
+:root {
+  color-scheme: light;
+  accent-color: #4e7a65;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #d8d3c8 #faf9f6;
+}
+
+*:focus-visible {
+  outline: 2px solid #4e7a65;
+  outline-offset: 2px;
+}
+
+input[type="range"] {
+  accent-color: #4e7a65;
+}

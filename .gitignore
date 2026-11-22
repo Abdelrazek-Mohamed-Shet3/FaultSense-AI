@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/.vite/
+
+# Runtime & Generated Artifacts
+artifacts/outputs/*
+!artifacts/outputs/.gitkeep
+artifacts/uploads/*
+!artifacts/uploads/.gitkeep
+artifacts/reports/*
+!artifacts/reports/.gitkeep
+artifacts/faultsense.db
+artifacts/checkpoints/faultsense_custom.pt
+data/*
+!data/.gitkeep
+
+# OS / Editors
+.DS_Store
+*.swp
+.idea/
+.vscode/
